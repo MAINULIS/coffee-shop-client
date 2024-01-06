@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
@@ -10,21 +10,28 @@ const Header = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li className='font-semibold'>
+                        <NavLink to='/'>Home</NavLink>
+                    </li>
+                </ul>
+
+                <ul className="menu menu-horizontal px-1">
+                    <li className='font-semibold'>
                         <NavLink to='/addCoffee'>Add Coffee</NavLink>
                     </li>
-                    
                 </ul>
+
                 <ul className="menu menu-horizontal px-1">
                     <li className='font-semibold'>
                         <NavLink to='/updateCoffee'>Update Coffee</NavLink>
                     </li>
-                    
+
                 </ul>
+
                 <ul className="menu menu-horizontal px-1">
                     <li className='font-semibold'>
                         <NavLink to='/login'>Sign In</NavLink>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
