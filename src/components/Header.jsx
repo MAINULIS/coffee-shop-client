@@ -22,13 +22,6 @@ const Header = () => {
 
                 <ul className="menu menu-horizontal px-1">
                     <li className='font-semibold'>
-                        <NavLink to='/updateCoffee'>Update Coffee</NavLink>
-                    </li>
-
-                </ul>
-
-                <ul className="menu menu-horizontal px-1">
-                    <li className='font-semibold'>
                         <NavLink to='/login'>Sign In</NavLink>
                     </li>
 
